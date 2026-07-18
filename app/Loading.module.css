@@ -1,0 +1,22 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(248, 249, 250, 0.35);
+
+  z-index: 9999;
+
+  pointer-events: none;
+}
+
+.text {
+  /* Розташування повідомлення трохи вище футера */
+  transform: translateY(280px);
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
